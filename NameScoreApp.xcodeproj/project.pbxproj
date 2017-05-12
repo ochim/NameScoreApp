@@ -13,6 +13,7 @@
 		0236BDAA1EC46E9A00A1B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0236BDA91EC46E9A00A1B100 /* Assets.xcassets */; };
 		0236BDAD1EC46E9A00A1B100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0236BDAB1EC46E9A00A1B100 /* LaunchScreen.storyboard */; };
 		0236BDB81EC46E9A00A1B100 /* NameScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236BDB71EC46E9A00A1B100 /* NameScoreAppTests.swift */; };
+		0236BDC31EC57E0600A1B100 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236BDC21EC57E0600A1B100 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0236BDB31EC46E9A00A1B100 /* NameScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0236BDB71EC46E9A00A1B100 /* NameScoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScoreAppTests.swift; sourceTree = "<group>"; };
 		0236BDB91EC46E9A00A1B100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0236BDC21EC57E0600A1B100 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				0236BDA21EC46E9A00A1B100 /* AppDelegate.swift */,
 				0236BDA41EC46E9A00A1B100 /* ViewController.swift */,
+				0236BDC21EC57E0600A1B100 /* ResultViewController.swift */,
 				0236BDA61EC46E9A00A1B100 /* Main.storyboard */,
 				0236BDA91EC46E9A00A1B100 /* Assets.xcassets */,
 				0236BDAB1EC46E9A00A1B100 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				0236BDA51EC46E9A00A1B100 /* ViewController.swift in Sources */,
 				0236BDA31EC46E9A00A1B100 /* AppDelegate.swift in Sources */,
+				0236BDC31EC57E0600A1B100 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
